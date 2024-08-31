@@ -21,3 +21,15 @@ a{
     border-radius:1em;
 }
 
+#sel
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border:0.1em solid black;
+    background: darkgray;
+    color: black;
+    line-height:12em;
+    padding:0 2em;
+    border-radius:1em;
+}
+

@@ -8,7 +8,7 @@
 </head>
 <body>
     <script>
-        function go() {
+        go = () => {
             var val = document.getElementById("sel").value;
             console.log(val);
 
@@ -27,23 +27,24 @@
             document.location = `/europa/${folder}/${val}.html`;
         }
     </script>
-<center>    
-    <img id="globe" src="images/globe.svg" alt="world globe">
-    <a href="afrika/afrika.html">Afrika</a>
-    <a href="asien/asien.html">Asien</a>
-    
-    <select id="sel" onchange="go()">
-            <option selected>Välj nåt!</option>
-            <option id="eur">
-                Europa
-            </option>
-            <option id="swe">Sverige</option>
-            <option id="fin">Finland</option>
+<div class="center">   
+    <div>
+        <img id="globe" src="images/globe.svg" alt="world globe">
+        <a href="afrika/afrika.html">Afrika</a>
+        <a href="asien/asien.html">Asien</a>
+        
+        <select id="sel" onchange="go()">
+                <option selected>Välj nåt!</option>
+                <option id="eur">
+                    Europa
+                </option>
+                <option id="swe">Sverige</option>
+                <option id="fin">Finland</option>
 
-            
-    </select>
-
-</center>
+                
+        </select>
+    </div> 
+</div>
 </body>
 </html>
 
